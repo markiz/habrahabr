@@ -1,6 +1,14 @@
 # Habrahabr
 
-Клиент для API хабрахабра.
+Habrahabr API client.
+
+# Installation
+
+For now, use bundler and install via git. I am currently feeling uncomfortable squatting rubygems entry for habrahabr.
+
+```
+gem 'habrahabr', git: 'https://github.com/markiz/habrahabr.git'
+```
 
 # Usage
 
@@ -33,3 +41,11 @@ client.hub_habred('infosecurity').first
 #  "title"=>"Переход к ISO/IEC 27001:2013. Тонкости перевода и не только",
 #  "preview_html"=> ... }
 ```
+
+# Disclaimer
+
+I have no relation to habrahabr other than having a need to develop an API wrapper.
+
+# License
+
+The code for API client is public domain. It uses some MIT and Ruby-licensed stuff underneath.
