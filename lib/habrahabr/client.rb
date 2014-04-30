@@ -22,8 +22,10 @@ module Habrahabr
 
     def posts_metadata(post_ids)
       post_ids = [post_ids].flatten
-      get('posts/meta', ids: post_ids.join(',')).body.fetch('data')
+      get('posts/meta', ids: post_ids.join(',')).body.fetch('data').
+          values.map {|post| Entities::Post.new(post) }
     end
+    alias_method :posts_meta, :posts_metadata
 
     def post_comments(post_id, options = {})
       list(get("comments/#{post_id}", options).body, Entities::Comment)
