@@ -1,0 +1,2261 @@
+{
+  "pages": 40,
+  "next_page": {
+    "url": "https://api.habrahabr.ru/v1/hub/php/habred?page=2",
+    "int": 2
+  },
+  "sorted_by": "time_published",
+  "data": [
+    {
+      "id": 221259,
+      "is_tutorial": false,
+      "time_published": "2014-04-29T13:44:11+04:00",
+      "time_interesting": null,
+      "comments_count": 0,
+      "score": null,
+      "votes_count": 10,
+      "favorites_count": 18,
+      "tags_string": "tdd, symfony 2, php, phpunit",
+      "title": "Тестирование отдельных Symfony 2 бандлов",
+      "preview_html": "Начну с коротенькой предыстории. Была у меня задача написать резерватор для номеров в отеле, я полез на всеми нами любимый <a href=\"https://packagist.org\">packagist</a>, в поисках готового решения и, к моему глубокому разочарованию, не нашел ничего. Ну, надо сделать — сделаем. Код написан, покрыт функциональными тестами в приложении. Через пару недель я решил выложить написанный бандл на github. Но передо мной встал вопрос: при тестировании отдельного бандла у нас нет самого приложения. Начал гуглить, и опять не нашел ничего стоящего. В общем пришлось собирать информацию по крупицам, и сейчас я хочу поделиться своим опытом с вами.<br/>\r\n",
+      "text_cut": "Начнем наши тесты",
+      "hubs": [
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 152,
+          "count_subscribers": 62393,
+          "is_profiled": true,
+          "rating": 0,
+          "alias": "symfony",
+          "title": "Symfony",
+          "tags_string": "symfony, symfony framework, symfony2, symfony2 framework, symfony 2, twig",
+          "about": "Заметки, новости, ссылки, дискуссии, касающиеся <a href=\"http://www.symfony-project.org/\">symfony framework</a> во всех его проявлениях. Вы написали полезный плагин? Или создали веб-проект, используя symfony? Может, вы хотите просто узнать больше об этом framework'e? Тогда вам сюда.",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 78,
+          "count_subscribers": 77090,
+          "is_profiled": true,
+          "rating": 1.6002,
+          "alias": "tdd",
+          "title": "TDD",
+          "tags_string": "tdd, bdd, xp, agile, pairing",
+          "about": "Обмениваемся опытом применения Test-Driven Development, Pairing, eXtreme Programming.",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "reading_count": 785,
+      "author": {
+        "id": 630161,
+        "login": "sirMelifaro",
+        "time_registered": "2014-04-27T14:09:30+04:00",
+        "score": 2,
+        "fullname": "Iakov Mishchenko",
+        "sex": 1,
+        "rating": 1,
+        "vote": 0,
+        "rating_position": 26395,
+        "geo": {
+          "country": "Израиль",
+          "region": "Иерусалим",
+          "city": "Иерусалим"
+        },
+        "counters": {
+          "posts": 1,
+          "comments": 0,
+          "followed": 0,
+          "followers": 0
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrahabr.ru/i/avatars/stub-user-middle.gif",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/221259",
+      "post_type": 11,
+      "post_type_str": "sandbox",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": false,
+      "is_favorite": false,
+      "is_recovery_mode": false,
+      "comments_new": 0
+    },
+    {
+      "id": 75570,
+      "is_tutorial": false,
+      "time_published": "2014-04-29T11:07:17+04:00",
+      "time_interesting": "2014-04-29T13:39:49+04:00",
+      "comments_count": 1,
+      "score": null,
+      "votes_count": 13,
+      "favorites_count": 45,
+      "tags_string": "composer, pear, php",
+      "title": "Замена PEAR на Composer",
+      "preview_html": "Думаю, большинство разработчиков, использующих PHP, уже в знают, что популярные проекты начинают отказываться от распространения через PEAR в пользу Composer (например <a href=\"https://github.com/sebastianbergmann/phpunit/wiki/End-of-Life-for-PEAR-Installation-Method\">PHPUnit</a> и <a href=\"https://twitter.com/fabpot/status/457842648733478913\">Symfony</a>). Некоторые расстраиваются по этому поводу, дескать, теперь вместо однократной общесистемной установки того же PHPUnit, придётся включать его зависимостью в каждый проект. Совсем необязательно! Composer прекрасно умеет устанавливать пакеты для общего использования.",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 2456,
+      "author": {
+        "id": 15759,
+        "login": "Mekras",
+        "time_registered": "2007-09-13T13:17:57+04:00",
+        "score": 19.3,
+        "fullname": "Михаил Красильников",
+        "sex": 1,
+        "rating": 16.5,
+        "vote": 0,
+        "rating_position": 4006,
+        "geo": {
+          "country": "Россия",
+          "region": "Москва и Московская обл.",
+          "city": "Долгопрудный"
+        },
+        "counters": {
+          "posts": 20,
+          "comments": 233,
+          "followed": 5,
+          "followers": 12
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/c1d/a35/91e/c1da3591e2c1c1ffb5b26d3e66589575.png",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/75570",
+      "post_type": 1,
+      "post_type_str": "simple",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "comments_new": 1
+    },
+    {
+      "id": 221083,
+      "is_tutorial": false,
+      "time_published": "2014-04-28T00:29:37+04:00",
+      "time_interesting": "2014-04-28T01:45:56+04:00",
+      "comments_count": 25,
+      "score": null,
+      "votes_count": 51,
+      "favorites_count": 141,
+      "tags_string": "дайджест, новости, подборка, ссылки, веб-разработка, PHP, Yii, Laravel, Behat, WordPress, HHVM, Yii 2, Zend Framework 2, Symfony 2",
+      "title": "Дайджест интересных новостей и материалов из мира PHP № 40 (14 апреля — 27 апреля 2014)",
+      "preview_html": "<img src=\"http://habrastorage.org/getpro/habr/post_images/728/3a4/9e5/7283a49e55efad7671594eafff5c5b5a.jpg\"/><br/>\r\n<br/>\r\nПредлагаем вашему вниманию очередную подборку со ссылками на новости и материалы.<br/>\r\n<br/>\r\nПриятного чтения!<br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 4242,
+          "count_subscribers": 122054,
+          "is_profiled": true,
+          "rating": 676.8563,
+          "alias": "webdev",
+          "title": "Веб-разработка",
+          "tags_string": "web development",
+          "about": "Полезности для web-разработчиков.",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 151,
+          "count_subscribers": 3314,
+          "is_profiled": false,
+          "rating": 73.0758,
+          "alias": "zfort",
+          "title": "Блог компании Zfort Group",
+          "tags_string": "",
+          "about": "Блог компании Zfort Group",
+          "is_membership": false,
+          "is_company": true
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 11922,
+      "author": {
+        "id": 100489,
+        "login": "pronskiy",
+        "time_registered": "2011-10-28T12:27:47+04:00",
+        "score": 71.2,
+        "fullname": "Роман Пронский",
+        "sex": 1,
+        "rating": 118.8,
+        "vote": 0,
+        "rating_position": 162,
+        "geo": {
+          "country": "Украина",
+          "region": "Харьковская обл.",
+          "city": "Харьков"
+        },
+        "counters": {
+          "posts": 28,
+          "comments": 37,
+          "followed": 14,
+          "followers": 30
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/9be/fd5/33b/9befd533b8af2cdab0a95cb07d962fce.jpg",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/company/zfort/blog/221083/",
+      "post_type": 1,
+      "post_type_str": "simple",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "comments_new": 25
+    },
+    {
+      "id": 220563,
+      "is_tutorial": false,
+      "time_published": "2014-04-23T17:13:26+04:00",
+      "time_interesting": "2014-04-23T19:02:34+04:00",
+      "comments_count": 3,
+      "score": 8,
+      "votes_count": 42,
+      "favorites_count": 52,
+      "tags_string": "bitrix, twig, php",
+      "title": "Игра шаблонов. Как примирить Битрикс со сторонним шаблонизатором вывода",
+      "preview_html": "PHP-разработкой я занимаюсь уже довольно давно, и за это время научился использовать преимущества этого языка и избегать, по возможности, его недостатков. Но что мне никогда не нравилось в PHP — это встроенный механизм шаблонизации. Обилие символов “&lt;?php … ?&gt;” и многословных языковых конструкций бьет по глазам, возможность использования в шаблоне произвольного PHP-кода не способствует соблюдению принципа разделения логики и представления.<br/>\r\n<br/>\r\nПоэтому я благодарен судьбе (и сообществу разработчиков, конечно) за то, что существуют альтернативные движки шаблонизации, с гораздо более приятным синтаксисом при тех же функциональных возможностях. Ну, а поскольку большая часть PHP-проектов у нас, в Центре Высоких Технологий, разрабатывается на Symfony2 Framework, то нашим любимым шаблонизатором стал Twig. Помимо указанных выше преимуществ, он еще и безгранично расширяемый, что очень часто помогает в работе.<br/>\r\n<br/>\r\nНо жизнь частенько преподносит сюрпризы. Вот и на меня недавно свалился небольшой, но довольно интересный проект, делать который нужно было на… Битриксе! К счастью, работать с Битриксом мне уже приходилось, но было это давно <s>(и неправда)</s>, поэтому я воспринял проект как возможность посмотреть на свой прошлый опыт с новой точки зрения, применить накопленные знания и навыки в несколько ином контексте.<br/>\r\nИ первое, что мне захотелось сделать — “прикрутить” Twig, чтобы не мучиться с нативной шаблонизацией.<br/>\r\n<br/>\r\nВот что из этого получилось.<br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 38,
+          "count_subscribers": 55233,
+          "is_profiled": true,
+          "rating": 4.6668,
+          "alias": "bitrix",
+          "title": "1С-Битрикс",
+          "tags_string": "bitrix, 1C, битрикс",
+          "about": "Хаб про 1С-Битрикс",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 4311,
+      "author": {
+        "id": 555615,
+        "login": "htc-cs",
+        "time_registered": "2014-02-14T11:33:18+04:00",
+        "score": 5,
+        "fullname": "Центр Высоких Технологий",
+        "sex": 0,
+        "rating": 8.9,
+        "vote": 0,
+        "rating_position": 7610,
+        "geo": {
+          "country": "Россия",
+          "region": "Удмуртия",
+          "city": "Ижевск"
+        },
+        "counters": {
+          "posts": 1,
+          "comments": 1,
+          "followed": 0,
+          "followers": 8
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/9b7/b5b/629/9b7b5b6290760fd298a3bae06b909337.jpg",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/220563",
+      "post_type": 1,
+      "post_type_str": "simple",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "comments_new": 3
+    },
+    {
+      "id": 220231,
+      "is_tutorial": false,
+      "time_published": "2014-04-21T17:26:36+04:00",
+      "time_interesting": "2014-04-21T20:57:03+04:00",
+      "comments_count": 8,
+      "score": 21,
+      "votes_count": 27,
+      "favorites_count": 167,
+      "tags_string": "PHP, Skype, Bot, D-bus, Jabber, JAXL, Debian, DNS, Whatsapp",
+      "title": "Чат-бот приложения через skype, jabber и whatsapp",
+      "preview_html": "Привет!<br/>\r\nХотелось бы рассказать вам историю создания одного незамысловатого развлекательного сервиса чат ботов.<br/>\r\n<br/>\r\n<h5>Вступление</h5><br/>\r\nО себе: Хабр читаю давно (лет этак 5), а вот зарегистрировался месяц назад, так как очень хотелось поделиться. Работаю в IT компании <s>почти эникейщиком</s> инженером по тестированию. Но меня всегда тянуло к разработке. И лет 7 назад занялся freelance параллельно основной работе. Начинал, как и все с малого, разбирался при помощи google. Писал всякие web непотребства. Все это ради достижения неких финансовых целей. Да и вообще вся жизнь состояла из цикла: поиск цели – достижение любыми средствами – удовлетворение – поиск новой цели. Так было и с freelance.<br/>\r\n<br/>\r\n<h5>Переломный момент</h5><br/>\r\nШла зима 2012/2013 года. Работал я на freelance над проектом <a href=\"http://habrahabr.ru/post/218421/\">онлайн-консультанта</a>, и мне надо было сделать интеграцию с jabber и skype, то есть чтобы операторы могли работать с клиентом печатая в свой im клиент, а пользователь сайта получал это все на web. После поиска в google, оказалось, что с jabber все просто, любой xmpp сервер на выбор (я выбрал ejabbered) и библиотечка для работы с ним JAXL (взял на github), тогда еще версии 2.х. А вот со Skype были проблемы: на сайте в разделе Developers предлагался какой-то kit за деньги (и лицензия, запрещающая серверное использование), с ненужными мне активациями и с упоминанием про какой-то api. А хотелось чего-то более простого. И тут я наткнулся на этот api в <a href=\"http://habrahabr.ru/post/149850/\">«Доступ к Skype API используя PHP на *nix системах»</a>, сейчас на сайте skype упоминания о работе с api отсутствуют уже, хотя тогда было, и скачал pdf по работе с ним через dbus. Там было все то, что я искал. <br/>\r\n",
+      "text_cut": "Подробности",
+      "hubs": [
+        {
+          "count_posts": 317,
+          "count_subscribers": 70119,
+          "is_profiled": true,
+          "rating": 30.4038,
+          "alias": "im",
+          "title": "IM",
+          "tags_string": "im, icq, mra, jabber, gtalk, instant message, instant messenger, instant messaging, xmpp",
+          "about": "Системы обмена мгновенными сообщениями. Или просто \"мессенджеры\".",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 246,
+          "count_subscribers": 76570,
+          "is_profiled": true,
+          "rating": 26.2682,
+          "alias": "skype",
+          "title": "Skype",
+          "tags_string": "skype, VoIP",
+          "about": "О такой прекрасной программке, как <a href=\"http://www.habrahabr.ru/company/skype/\">Skype</a>. Поболтаем?",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "reading_count": 8153,
+      "author": {
+        "id": 586351,
+        "login": "cryomi",
+        "time_registered": "2014-03-28T19:59:21+04:00",
+        "score": 6,
+        "fullname": "",
+        "sex": 1,
+        "rating": 19.8,
+        "vote": 0,
+        "rating_position": 3222,
+        "geo": {
+          "country": "Беларусь",
+          "region": null,
+          "city": null
+        },
+        "counters": {
+          "posts": 1,
+          "comments": 3,
+          "followed": 0,
+          "followers": 1
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/ff4/b3e/7f2/ff4b3e7f23a81ccdbb134c8ebca4d911.jpg",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/220231",
+      "post_type": 11,
+      "post_type_str": "sandbox",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "is_recovery_mode": false,
+      "comments_new": 8
+    },
+    {
+      "id": 220211,
+      "is_tutorial": false,
+      "time_published": "2014-04-21T14:13:00+04:00",
+      "time_interesting": "2014-04-21T14:30:48+04:00",
+      "comments_count": 7,
+      "score": 51,
+      "votes_count": 73,
+      "favorites_count": 112,
+      "tags_string": "Badoo, phpunit, облако, php5.5, runkit, Бергманн",
+      "title": "Переход на PHP 5.5 и юнит-тесты",
+      "preview_html": "С момента перехода с PHP 4.4 на PHP 5.3 в Badoo прошло уже 4 года, пришла пора обновлять PHP, на этот раз сразу на версию PHP 5.5. Помимо новых фич, новая версия PHP в очередной раз принесла нам существенное увеличение производительности, поэтому у нас было много причин для апгрейда. В этой статье мы расскажем о том, как мы переходили на PHP 5.5, какие «грабли» собрали, и зачем в очередной раз переписывали нашу систему для запуска юнит-тестов на основе PHPUnit.<br/>\r\n<br/>\r\n<div style=\"text-align:center;\"><img src=\"http://habrastorage.org/getpro/habr/post_images/acb/906/de3/acb906de3aa914ea7d207b60e62c7d75.png\" /></div><br/>\r\n<i>Рис 1. Общая архитектура</i><br/>\r\n<br/>\r\n<h3>«Грабли» при переходе с PHP 5.3 на PHP 5.5</h3><br/>\r\nВ прошлый раз мы переходили с четвертой версии PHP на пятую, причём наша версия PHP 5.3 содержала патчи, чтобы работал «старый» синтаксис PHP, например, <code>$a = &new ClassName();</code>, и чтобы наша кодовая база могла работать на PHP4 и PHP5 одновременно. На этот раз у нас таких ограничений не было, поэтому при переходе мы просто нашли и заменили все устаревшие конструкции на более актуальные, и на этом переписывание кода было закончено.<br/>\r\n<br/>\r\nОсновные проблемы, которые у нас возникли:<br/>\r\n<ul>\r\n<li>часть deprecated-фич языка была убрана;</li>\r\n<li>расширение <i>mysql</i> стало <i>deprecated</i>;</li>\r\n<li>низкая производительность расширения runkit, которое мы используем при написании юнит-тестов.</li>\r\n</ul><br/>\r\n<br/>\r\nПосле перехода на PHP 5.5 наши юнит-тесты начали проходить значительно дольше (в несколько раз), поэтому мы решили в очередной раз доработать нашу «пускалку», чтобы решить эту проблему.<br/>\r\n<br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 529,
+          "count_subscribers": 84715,
+          "is_profiled": true,
+          "rating": 67.875,
+          "alias": "testing",
+          "title": "Тестирование",
+          "tags_string": "тестирование, ПО, software, hardware, testing, веб, сайты, службы, сервисы",
+          "about": "Блог для записей о тестировании программного и аппаратного обеспечения, веб-сервисов, сайтов и всего-всего, что только можно (и нужно) протестировать.",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 50,
+          "count_subscribers": 1042,
+          "is_profiled": false,
+          "rating": 13.6017,
+          "alias": "badoo",
+          "title": "Блог компании Badoo",
+          "tags_string": "",
+          "about": "Блог компании badoo",
+          "is_membership": false,
+          "is_company": true
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 11032,
+      "author": {
+        "id": 40540,
+        "login": "youROCK",
+        "time_registered": "2008-06-23T18:31:08+04:00",
+        "score": 212.7,
+        "fullname": "Юрий Насретдинов",
+        "sex": 1,
+        "rating": 147.3,
+        "vote": 0,
+        "rating_position": 108,
+        "geo": {
+          "country": "Россия",
+          "region": "Москва и Московская обл.",
+          "city": "Юбилейный (Московская обл.)"
+        },
+        "counters": {
+          "posts": 29,
+          "comments": 1149,
+          "followed": 34,
+          "followers": 61
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          },
+          {
+            "alias": "author",
+            "title": "Автор",
+            "plural": "Авторы",
+            "description": "Пользователь, опубликовавший более 10 топиков; рейтинг каждого топика должен быть более 50 баллов."
+          },
+          {
+            "alias": "oldresident",
+            "title": "Старожил",
+            "plural": "Старожилы",
+            "description": "Пользователь, зарегистрированный более 3-х лет назад, с кармой больше 50."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/ebc/f1f/f0a/ebcf1ff0acbe5c799df1122e2e45a8b5.jpg",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/company/badoo/blog/220211/",
+      "post_type": 1,
+      "post_type_str": "simple",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "comments_new": 7
+    },
+    {
+      "id": 219913,
+      "is_tutorial": false,
+      "time_published": "2014-04-21T10:45:31+04:00",
+      "time_interesting": "2014-04-21T17:27:12+04:00",
+      "comments_count": 12,
+      "score": 16,
+      "votes_count": 26,
+      "favorites_count": 48,
+      "tags_string": "mongodb, php, highload",
+      "title": "MongoDB: $or VS $in — что работает быстрее?",
+      "preview_html": "По катом будет совсем небольшое сравнение производительности MongoDB в случаях использования $or и $in логических операций в запросах. Надеюсь, что данная заметка сэкономит кому-нибудь рабочее время.<br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 45,
+          "count_subscribers": 67260,
+          "is_profiled": true,
+          "rating": 19.4683,
+          "alias": "MongoDB",
+          "title": "MongoDB",
+          "tags_string": "mongodb, mongo, база данных, db",
+          "about": "MongoDB",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 3987,
+      "author": {
+        "id": 147916,
+        "login": "Labutin",
+        "time_registered": "2012-01-19T07:12:06+04:00",
+        "score": 112,
+        "fullname": "Дмитрий Лабутин",
+        "sex": 1,
+        "rating": 68.9,
+        "vote": 0,
+        "rating_position": 497,
+        "geo": {
+          "country": "Россия",
+          "region": "Нижегородская обл.",
+          "city": "Нижний Новгород"
+        },
+        "counters": {
+          "posts": 5,
+          "comments": 23,
+          "followed": 0,
+          "followers": 13
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/1cd/d3c/d1b/1cdd3cd1b752254d98d3f2b9e6416f2c.jpg",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/219913",
+      "post_type": 1,
+      "post_type_str": "simple",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "comments_new": 12
+    },
+    {
+      "id": 220051,
+      "is_tutorial": false,
+      "time_published": "2014-04-20T07:30:02+04:00",
+      "time_interesting": "2014-04-20T11:46:01+04:00",
+      "comments_count": 83,
+      "score": 33,
+      "votes_count": 79,
+      "favorites_count": 84,
+      "tags_string": "php, hhvm, jit, hack, zephir, facebook",
+      "title": "Одно из мнений о будущем PHP",
+      "preview_html": "<img src=\"http://habrastorage.org/getpro/habr/post_images/49b/b46/0c1/49bb460c1f1423fa5fee401d46c91de7.jpg\"/><br/>\r\n<br/>\r\nВ последнее время в сообществе разработчиков наблюдается весьма оживленное обсуждение всего того, что касается PHP и его будущего. Что радует — большинство подобных разговоров проходят в позитивном ключе. Популярны дискуссии на тему PHP 6 и того, каким он мог бы выглядеть. Народ задает очень много вопросов об HHVM и её роли в будущем языка и сообщества. Так что позвольте и мне поделиться с вами некоторыми своими мыслями по этому поводу.<br/>\r\n<br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 2536,
+          "count_subscribers": 97240,
+          "is_profiled": true,
+          "rating": 838.4611,
+          "alias": "programming",
+          "title": "Программирование",
+          "tags_string": "программинг, кодирование",
+          "about": "Популярным языкам — по блогу. Остальным посвящается…",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 25211,
+      "author": {
+        "id": 66595,
+        "login": "franzose",
+        "time_registered": "2011-10-03T18:49:48+04:00",
+        "score": 24,
+        "fullname": "Ян Иванов",
+        "sex": 1,
+        "rating": 162.8,
+        "vote": 0,
+        "rating_position": 86,
+        "geo": {
+          "country": "Россия",
+          "region": "Сахалин",
+          "city": "Южно-Сахалинск"
+        },
+        "counters": {
+          "posts": 4,
+          "comments": 64,
+          "followed": 7,
+          "followers": 4
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/298/253/1e7/2982531e7c120975340bacdb184a9599.jpg",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/220051",
+      "post_type": 2,
+      "post_type_str": "translation",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "comments_new": 83
+    },
+    {
+      "id": 219837,
+      "is_tutorial": false,
+      "time_published": "2014-04-18T15:00:21+04:00",
+      "time_interesting": "2014-04-18T15:46:06+04:00",
+      "comments_count": 6,
+      "score": 36,
+      "votes_count": 52,
+      "favorites_count": 58,
+      "tags_string": "php, composer, packagist, dependencies",
+      "title": "Опциональные зависимости не нужны",
+      "preview_html": "В данном посте речь пойдет о <i><abbr title=\"PHP Package\"><a href=\"https://packagist.org/explore/\">пакетах PHP</a></abbr></i> и о<s>б алкогольных</s> зависимостях. Вернее, о так называемых опциональных или предложенных зависимостях (optional dependencies, suggest/dev-dependencies), которые определяются в composer.json.<br/>\r\n<br/>\r\n<h4>Что такое зависимость?</h4><br/>\r\nДля начала разберемся с тем, что такое зависимость и о чем вообще речь. Есть следующий код: <br/>\r\n<br/>\r\n<pre><code class=\"php\">namespace Gaufrette\\Adapter;\n \nuse Gaufrette\\Adapter;\nuse \\MongoGridFS;\n \nclass GridFS implements Adapter\n{\n    private $gridFS;\n \n    public function __construct(MongoGridFS $gridFS)\n    {\n        $this-&gt;gridFS = $gridFS;\n    }\n \n    public function read($key)\n    {\n        $file = $this-&gt;find($key);\n \n        return ($file) ? $file-&gt;getBytes() : false;\n    }\n}\n</code></pre><br/>\r\nКласс GridFS — часть библиотеки <a href=\"https://github.com/KnpLabs/Gaufrette\">абстрактной файловой системы Gaufrette</a>, которую я в какой-то степени изменил. Для определения всех зависимостей этого кусочка кода мы должны задать себе следующие вопросы:<br/>\r\n<br/>\r\n<ul>\r\n<li>Что нужно, чтобы данный код заработал?</li>\r\n</ul><br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 2536,
+          "count_subscribers": 97240,
+          "is_profiled": true,
+          "rating": 838.4611,
+          "alias": "programming",
+          "title": "Программирование",
+          "tags_string": "программинг, кодирование",
+          "about": "Популярным языкам — по блогу. Остальным посвящается…",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 4909,
+      "author": {
+        "id": 87148,
+        "login": "yTko",
+        "time_registered": "2011-10-13T23:11:44+04:00",
+        "score": 24.8,
+        "fullname": "Захаров Кирилл",
+        "sex": 1,
+        "rating": 41.3,
+        "vote": 0,
+        "rating_position": 1181,
+        "geo": {
+          "country": "Россия",
+          "region": "Санкт-Петербург и область",
+          "city": "Санкт-Петербург"
+        },
+        "counters": {
+          "posts": 5,
+          "comments": 184,
+          "followed": 6,
+          "followers": 8
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/ede/58d/9a5/ede58d9a531ed28988ed2e360147c7d1.png",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/219837",
+      "post_type": 2,
+      "post_type_str": "translation",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "comments_new": 6
+    },
+    {
+      "id": 219907,
+      "is_tutorial": false,
+      "time_published": "2014-04-18T14:48:12+04:00",
+      "time_interesting": "2014-04-18T16:44:41+04:00",
+      "comments_count": 11,
+      "score": 17,
+      "votes_count": 23,
+      "favorites_count": 73,
+      "tags_string": "xml, xslt, dom, php",
+      "title": "PHP-расширение dom_varimport: быстрое преобразования вложенных массивов в DOMDocument",
+      "preview_html": "<img src=\"http://habrastorage.org/getpro/habr/post_images/e41/a33/ca1/e41a33ca1a164ee6c2d0cc2bc8b4a758.jpg\" width=\"200\" align=\"left\"/>Некоторые проекты используют XSLT в качестве основного «движка» шаблонов. Помимо известных недостатков XSLT (например, его многословности, относительной медлительности и т.д.) у него есть и преимущества: «стандартность» языка, его идеология отсутствия «побочных эффектов» и pattern matching, возможность при необходимости вызывать методы helper-классов из шаблонов (через exslt-расширение). Какое-то время назад я выкладывал библиотеку <a href=\"http://dklab.ru/lib/Dklab_ShortXSLT/\">ShortXSLT</a>, позволяющую вместо громоздких &lt;xsl:value-of select=&quot;/root/abc&quot;/&gt; и &lt;xsl:choose&gt;...&lt;/xsl:choose&gt; писать просто {/root/abc} и {if...}...{elseif}...{/if} без потери производительности, так что проблема многословности отчасти решается.<br/>\r\n<br/>\r\nНо сейчас речь не о преимуществах и недостатках XSLT (я уверен, и противники, и сторонники этой технологии найдутся в изобилии). Я бы хотел описать один прием, который удобно применять в <b>существующих</b> проектах с XSLT-шаблонами, и привести ссылку на библиотеку, реализующую данный прием с хорошей производительностью.<br/>\r\n<br/>\r\n<h5>Передаем данные в XSLT, минуя генерацию текстового представления XML</h5><br/>\r\nПредставьте, что у нас есть контроллер, генерирующий некоторый вложенный PHP-список объектов для отображения на странице. Он должен этот массив преобразовать в XML, который потом пойдет на вход XSLT-шаблону. Хорошо бы, чтобы данное преобразование из структур PHP в XML выполнялось не вручную в каждом контроллере, а был некоторый промежуточный слой абстракции, который умеет применять XSLT-шаблон прямо к PHP-данным, минуя текстовое XML-представление. Так мы уменьшим вероятность ошибок, да и письмо сократится. Мы сможем работать с XSLT-шаблонами напрямую, минуя XML-представление данных.<br/>\r\n<br/>\r\nНекоторое время назад я написал на Си PHP-расширение <a href=\"http://dklab.ru/lib/dom_varimport/\">dom_varimport</a> (также <a href=\"https://github.com/DmitryKoterov/dom_varimport\">выложено на GitHub</a>). Оно содержит одноименную функцию, на вход которой подается объект DOMDocument и PHP-массив любой вложенности. Функция заполняет переданный ей DOMDocument XML-представлением входного массива, и делает она это очень быстро — примерно <b>в 20 раз быстрее</b>, чем делал бы код, написанный на чистом PHP. Большой документ размером около 1 МБ с тысячами вложенных свойств и объектов формируется примерно за 1-2 миллисекунды.<br/>\r\n<br/>\r\nНапример, вызов:",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 473,
+          "count_subscribers": 85306,
+          "is_profiled": true,
+          "rating": 112.9421,
+          "alias": "hi",
+          "title": "Высокая производительность",
+          "tags_string": "high perfomance, highload, high load, hpc, high performance computing",
+          "about": "Здесь обсуждаются методы получения высокой производительности веб-систем.",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 36,
+          "count_subscribers": 63442,
+          "is_profiled": true,
+          "rating": 4.5339,
+          "alias": "xslt",
+          "title": "XSLT",
+          "tags_string": "xslt",
+          "about": "В этом блоге размещаются статьи по преобразованию XML документов в различные форматы с помощью XSLT.<br/>\r\nТакже приветствуются статьи по таким темам, как XSL-FO, Xpath, EXSLT и др. смежным технологиям.",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 3430,
+      "author": {
+        "id": 12476,
+        "login": "DmitryKoterov",
+        "time_registered": "2007-07-06T12:09:27+04:00",
+        "score": 374.3,
+        "fullname": "Дмитрий Котеров",
+        "sex": 1,
+        "rating": 213.6,
+        "vote": 0,
+        "rating_position": 47,
+        "geo": {
+          "country": "Россия",
+          "region": null,
+          "city": null
+        },
+        "counters": {
+          "posts": 26,
+          "comments": 828,
+          "followed": 9,
+          "followers": 43
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          },
+          {
+            "alias": "oldresident",
+            "title": "Старожил",
+            "plural": "Старожилы",
+            "description": "Пользователь, зарегистрированный более 3-х лет назад, с кармой больше 50."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/c88/104/c8a/c88104c8a71f297250cdc09af67e19cf.png",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/219907",
+      "post_type": 1,
+      "post_type_str": "simple",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "comments_new": 11
+    },
+    {
+      "id": 219795,
+      "is_tutorial": false,
+      "time_published": "2014-04-18T10:47:28+04:00",
+      "time_interesting": null,
+      "comments_count": 0,
+      "score": 4,
+      "votes_count": 6,
+      "favorites_count": 16,
+      "tags_string": "dfl-860e, php, syslog",
+      "title": "Удобный просмотр syslog журнала межсетевого экрана D-Link DFL-860E c помощью скрипта на PHP",
+      "preview_html": "В межсетевых экранах D-Link DFL есть несколько минусов в средстве просмотра журнала событий с помощью веб-интерфейса:<br/>\r\n — большой поток данных переполняет отображаемый журнал событий и просмотреть логи обычно возможно только за маленький промежуток времени (несколько дней, чаще только за 1 день);<br/>\r\n — чтобы посмотреть журнал нужно зайти в веб-панель маршрутизатора (ввести пароль и логин), выбрать статус и отображение журнала. Не имея доступа к веб-панели (не являясь админом устройства) посмотреть логи невозможно, а бывает нужно дать доступ на просмотр логов человеку, которому пароль и логин к устройству давать не нужно;<br/>\r\n — в журнале логи разбиваются на маленькие странички, и если журнал большой перелистывать такие странички становится утомительно.<br/>\r\n<br/>\r\nВ DFL можно отправлять логи на syslog сервер, который будет писать журнал в файл, правда читать потом такой файл очень неудобно из-за его большого размера и неудобного поиска.<br/>\r\n<br/>\r\nДля тех у кого есть возможность использовать web сервер, выполняющий скрипты на php можно просматривать журнал с помощью небольшого скрипта:<br/>\r\n<br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 508,
+          "count_subscribers": 88131,
+          "is_profiled": true,
+          "rating": 74.542,
+          "alias": "nix",
+          "title": "*nix",
+          "tags_string": "nix, unix, unix like, unix-like, юникс, никс, никсы, BSD, FreeBSD, OpenBSD, NetBSD, Dragonfly BSD, open source",
+          "about": "UNIX-like системы и иже с ними.",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 219,
+          "count_subscribers": 78617,
+          "is_profiled": false,
+          "rating": 38.3382,
+          "alias": "Network_hardware",
+          "title": "Сетевое оборудование",
+          "tags_string": "switch, router, роутер, свич, маршрутизатор, точка доступа, access point",
+          "about": "Сетевое оборудование",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "reading_count": 1779,
+      "author": {
+        "id": 599999,
+        "login": "Brutis",
+        "time_registered": "2014-04-17T11:12:03+04:00",
+        "score": 2,
+        "fullname": "",
+        "sex": 1,
+        "rating": 4.2,
+        "vote": 0,
+        "rating_position": 13843,
+        "geo": {
+          "country": "Россия",
+          "region": "Санкт-Петербург и область",
+          "city": "Санкт-Петербург"
+        },
+        "counters": {
+          "posts": 1,
+          "comments": 0,
+          "followed": 0,
+          "followers": 0
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrahabr.ru/i/avatars/stub-user-middle.gif",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/219795",
+      "post_type": 11,
+      "post_type_str": "sandbox",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": false,
+      "is_favorite": false,
+      "is_recovery_mode": false,
+      "comments_new": 0
+    },
+    {
+      "id": 219813,
+      "is_tutorial": false,
+      "time_published": "2014-04-17T16:35:41+04:00",
+      "time_interesting": "2014-04-17T17:35:45+04:00",
+      "comments_count": 17,
+      "score": 24,
+      "votes_count": 30,
+      "favorites_count": 24,
+      "tags_string": "wordpress, news, cms",
+      "title": "Релиз Wordpress 3.9 “Smith”",
+      "preview_html": "Ура, друзья, вышла новая версия WordPress — 3.9, и названа она в честь джазового музыканта <a href=\"http://en.wikipedia.org/wiki/Jimmy_Smith_(musician)\">Jimmy Smith</a>.<br/>\r\nВидео-обзор релиза:<br/>\r\n<br/>\r\n<iframe width=\"560\" height=\"349\" src=\"//www.youtube.com/embed/9Ow1dqKrw_s?wmode=opaque\" frameborder=\"0\" allowfullscreen></iframe><br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 340,
+          "count_subscribers": 68777,
+          "is_profiled": true,
+          "rating": 8.5344,
+          "alias": "cms",
+          "title": "CMS",
+          "tags_string": "cms, content, content management system, cmf, joomla, drupal, wordpress, content manage, движок, движки",
+          "about": "<h3>Прошлое, настоящее, будущее систем управления содержимым сайта.</h3>",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 4242,
+          "count_subscribers": 122054,
+          "is_profiled": true,
+          "rating": 676.8563,
+          "alias": "webdev",
+          "title": "Веб-разработка",
+          "tags_string": "web development",
+          "about": "Полезности для web-разработчиков.",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 10318,
+      "author": {
+        "id": 221305,
+        "login": "Scorpion97",
+        "time_registered": "2012-08-23T07:52:51+04:00",
+        "score": 4,
+        "fullname": "Андрей",
+        "sex": 1,
+        "rating": 21.5,
+        "vote": 0,
+        "rating_position": 2953,
+        "geo": {
+          "country": "Россия",
+          "region": "Омская обл.",
+          "city": "Омск"
+        },
+        "counters": {
+          "posts": 3,
+          "comments": 32,
+          "followed": 0,
+          "followers": 0
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/c06/955/fd6/c06955fd6d116139447fe5692fa94be7.png",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/219813",
+      "post_type": 2,
+      "post_type_str": "translation",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "comments_new": 17
+    },
+    {
+      "id": 219441,
+      "is_tutorial": false,
+      "time_published": "2014-04-16T14:51:25+04:00",
+      "time_interesting": "2014-04-16T17:55:31+04:00",
+      "comments_count": 45,
+      "score": 24,
+      "votes_count": 36,
+      "favorites_count": 190,
+      "tags_string": "php, highload, neo4j",
+      "title": "Начинаем работать с графовой базой данных Neo4j",
+      "preview_html": "В нашем проекте возникла следующая задача — есть база с большим количеством товаров, на уровне сотен тысяч. У каждого товара есть сотни динамически создаваемых характеристик. Необходимо обеспечить быструю фильтрацию по товарам по набору различных характеристик. Время формирования ответа должно быть не более 0.3 секунды, нужно поддерживать сложную логику в стиле.<br/>\r\n<br/>\r\n<pre><code>(характеристика1 = true AND (характеристика2 &lt; 100)) OR (характеристика1 = false AND (характеристика3 &gt; 17)) ... далее обычно мешанина из AND\\OR</code></pre><br/>\r\n<br/>\r\nТипичный пример подобного функционала — <a href=\"http://hotline.ua/computer/myshi-klaviatury/\">hotline.ua/computer/myshi-klaviatury/</a><br/>\r\n<br/>\r\n<img src=\"http://habrastorage.org/getpro/habr/post_images/11f/5eb/62c/11f5eb62cd8d0b0719f563bfff8d7b6d.png\" alt=\"Пример функционала\"/><br/>\r\n<br/>\r\nУ нас все реализовано в рамках MySQL + Symfony2/Doctrine, скорость неудовлетворительная — ответы формируются в течении 1-10 секунд. Мои попытки оптимизировать все это хозяйство — под катом.<br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "reading_count": 8158,
+      "author": {
+        "id": 596897,
+        "login": "zqZhil",
+        "time_registered": "2014-04-12T19:00:50+04:00",
+        "score": 3,
+        "fullname": "",
+        "sex": 0,
+        "rating": 20.7,
+        "vote": 0,
+        "rating_position": 3057,
+        "geo": {
+          "country": null,
+          "region": null,
+          "city": null
+        },
+        "counters": {
+          "posts": 1,
+          "comments": 7,
+          "followed": 0,
+          "followers": 0
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrahabr.ru/i/avatars/stub-user-middle.gif",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/219441",
+      "post_type": 11,
+      "post_type_str": "sandbox",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "is_recovery_mode": false,
+      "comments_new": 45
+    },
+    {
+      "id": 219475,
+      "is_tutorial": false,
+      "time_published": "2014-04-15T19:20:31+04:00",
+      "time_interesting": "2014-04-15T22:36:15+04:00",
+      "comments_count": 19,
+      "score": 49,
+      "votes_count": 57,
+      "favorites_count": 63,
+      "tags_string": "уязвимость, php, laravel",
+      "title": "Обнаружена уязвимость функционала «remember me» в Laravel",
+      "preview_html": "<img src=\"http://habrastorage.org/getpro/habr/post_images/3ea/879/c0a/3ea879c0adbb077efec461ee47187bf2.png\" align=\"right\"/><br/>\r\nНекоторое время назад был опубликован <a href=\"https://labs.mwrinfosecurity.com/blog/2014/04/11/laravel-cookie-forgery-decryption-and-rce/\">пост</a> с подробным описанием уязвимости функционала «remember me» в фреймворке Laravel. Она позволяла имперсонировать любого пользователя путем создания поддельного кука логина. Разработчики тогда сказали что дыру закрыли. Но более подробный взгляд показывает что гидре отрубали лишь одну голову. Даже если вы не используете данный фреймворк вам все равно будет полезно узнать как не надо имплементировать такой функционал у себя на сайте.<br/>\r\n<br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 3635,
+          "count_subscribers": 117449,
+          "is_profiled": true,
+          "rating": 1623.7758,
+          "alias": "infosecurity",
+          "title": "Информационная безопасность",
+          "tags_string": "безопасность, фишинг, fishing, защита, взлом, XSS, CSRF, SQL-inj, sql-инъекция, PHP-inj, DoS, DDoS, социальная инженерия, capcha, капча, sql injection, php injection, хакер, хакеры, хакерская атака",
+          "about": "О том, как мы защищаем свою информацию - от взлома, повреждения, фишинга и т.д. Новости мира anti-virus, anti-spam, anti-spy  и т.д.\r\n\r\nЛичные впечатления, опыт, мнения.",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 4242,
+          "count_subscribers": 122054,
+          "is_profiled": true,
+          "rating": 676.8563,
+          "alias": "webdev",
+          "title": "Веб-разработка",
+          "tags_string": "web development",
+          "about": "Полезности для web-разработчиков.",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 7912,
+      "author": {
+        "id": 368857,
+        "login": "jigpuzzled",
+        "time_registered": "2013-05-02T13:35:03+04:00",
+        "score": 17,
+        "fullname": "",
+        "sex": 0,
+        "rating": 47.8,
+        "vote": 0,
+        "rating_position": 935,
+        "geo": {
+          "country": null,
+          "region": null,
+          "city": null
+        },
+        "counters": {
+          "posts": 11,
+          "comments": 109,
+          "followed": 0,
+          "followers": 2
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrahabr.ru/i/avatars/stub-user-middle.gif",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/219475",
+      "post_type": 1,
+      "post_type_str": "simple",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "comments_new": 19
+    },
+    {
+      "id": 219217,
+      "is_tutorial": false,
+      "time_published": "2014-04-14T02:39:48+04:00",
+      "time_interesting": "2014-04-14T03:31:07+04:00",
+      "comments_count": 27,
+      "score": 59,
+      "votes_count": 65,
+      "favorites_count": 157,
+      "tags_string": "дайджест, новости, подборка, ссылки, веб-разработка, PHP, HACK, JPHP, HHVM, HippyVM, Kohana, Yii 2, Guzzle, Zend Framework 2, Symfony 2, Laravel, PHP 6",
+      "title": "Дайджест интересных новостей и материалов из мира PHP № 39 (24 марта — 14 апреля 2014)",
+      "preview_html": "<img src=\"http://habrastorage.org/getpro/habr/post_images/a76/43d/a9c/a7643da9ca486462874ce1157674420b.jpg\"/><br/>\r\n<br/>\r\nПредлагаем вашему вниманию очередную подборку со ссылками на новости и материалы.<br/>\r\n<br/>\r\nПриятного чтения!<br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 4242,
+          "count_subscribers": 122054,
+          "is_profiled": true,
+          "rating": 676.8563,
+          "alias": "webdev",
+          "title": "Веб-разработка",
+          "tags_string": "web development",
+          "about": "Полезности для web-разработчиков.",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 151,
+          "count_subscribers": 3314,
+          "is_profiled": false,
+          "rating": 73.0758,
+          "alias": "zfort",
+          "title": "Блог компании Zfort Group",
+          "tags_string": "",
+          "about": "Блог компании Zfort Group",
+          "is_membership": false,
+          "is_company": true
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 16609,
+      "author": {
+        "id": 100489,
+        "login": "pronskiy",
+        "time_registered": "2011-10-28T12:27:47+04:00",
+        "score": 71.2,
+        "fullname": "Роман Пронский",
+        "sex": 1,
+        "rating": 118.8,
+        "vote": 0,
+        "rating_position": 162,
+        "geo": {
+          "country": "Украина",
+          "region": "Харьковская обл.",
+          "city": "Харьков"
+        },
+        "counters": {
+          "posts": 28,
+          "comments": 37,
+          "followed": 14,
+          "followers": 30
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/9be/fd5/33b/9befd533b8af2cdab0a95cb07d962fce.jpg",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/company/zfort/blog/219217/",
+      "post_type": 1,
+      "post_type_str": "simple",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "comments_new": 27
+    },
+    {
+      "id": 219027,
+      "is_tutorial": false,
+      "time_published": "2014-04-11T13:55:56+04:00",
+      "time_interesting": null,
+      "comments_count": 10,
+      "score": 1,
+      "votes_count": 17,
+      "favorites_count": 7,
+      "tags_string": "php, frameworks, yii, yii2",
+      "title": "13 апреля Yii 2 переходит в статус Beta",
+      "preview_html": "Меньше недели назад обновился <a href=\"https://github.com/yiisoft/yii2/wiki/Yii2-Development-Roadmap\">Roadmap разработки</a> любимого многими фрэймворка <a href=\"http://yiiframework.com\">Yii2</a>.<br/>\r\n<br/>\r\nВ последние несколько дней, а также прямо сейчас в <a href=\"https://github.com/yiisoft/yii2/commits/master\">основную ветку</a> вливается огромное число изменений.<br/>\r\n<br/>\r\nВот некоторые, самые интересные из них (по сравнению с текущей альфой конечно)<br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 133,
+          "count_subscribers": 64361,
+          "is_profiled": true,
+          "rating": 69.0666,
+          "alias": "yii",
+          "title": "Yii",
+          "tags_string": "yii, Yii Framework, YiiFramework, framework, фрэймворк",
+          "about": "Блог посвящен фреймворку под названием Yii. Тут публикуются все материалы тем или иным образом связанные с этим фреймворком.",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "is_recovery_mode": true,
+      "reading_count": 3718,
+      "author": {
+        "id": 6860,
+        "login": "q_styler",
+        "time_registered": "2007-04-02T17:55:35+04:00",
+        "score": -3,
+        "fullname": "q_styler",
+        "sex": 1,
+        "rating": 0.1,
+        "vote": 0,
+        "rating_position": 37821,
+        "geo": {
+          "country": "Россия",
+          "region": "Калининградская обл.",
+          "city": null
+        },
+        "counters": {
+          "posts": 7,
+          "comments": 1046,
+          "followed": 7,
+          "followers": 7
+        },
+        "badges": [
+          {
+            "alias": "unhabred",
+            "title": "Отхабренный",
+            "plural": "Отхабренные",
+            "description": "Пользователь с кармой <0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/d5e/51e/d43/d5e51ed43fff2dd092b1651589bf24d9.jpg",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/219027",
+      "post_type": 1,
+      "post_type_str": "simple",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": false,
+      "is_favorite": false,
+      "comments_new": 10
+    },
+    {
+      "id": 218585,
+      "is_tutorial": true,
+      "time_published": "2014-04-10T16:49:46+04:00",
+      "time_interesting": "2014-04-10T18:02:39+04:00",
+      "comments_count": 16,
+      "score": 30,
+      "votes_count": 36,
+      "favorites_count": 122,
+      "tags_string": "PhpStorm, WordPress, ide, hooks, navigation",
+      "title": "Использование PhpStorm для разработки под WordPress",
+      "preview_html": "<img src=\"http://habrastorage.org/getpro/habr/post_images/353/9d4/eff/3539d4effc7b7ad42bc7b29f8ccce434.png\" align=\"right\" width=\"300\"/>Несколько недель назад в PhpStorm 8 (доступной в рамках программы раннего доступа / Early Access Program) <a href=\"http://blog.jetbrains.com/phpstorm/2014/03/phpstorm-8-eap-136-1255/\">была добавлена поддержка</a> популярной CMS WordPress. Свежий билд PhpStorm 8 EAP можно <a href=\"http://confluence.jetbrains.com/display/PhpStorm/PhpStorm+Early+Access+Program\">загрузить</a> бесплатно прямо сейчас, так что все описанное в данном обучающем материале уже можно попробовать, а мы в свою очередь будем благодарны обратной связи в нашем <a href=\"http://youtrack.jetbrains.com/issues/WI\">багтрекере</a>.<br/>\r\n<br/>\r\nИсчерпывающую информацию о поддержке WordPress в PhpStorm можно найти в англоязычном материале <a href=\"http://confluence.jetbrains.com/display/PhpStorm/WordPress+Development+using+PhpStorm\">WordPress Development using PhpStorm</a>. В этом посте мы расскажем о самых важных функциях, включенных в поддержку WordPress в PhpStorm.<br/>\r\n<br/>\r\nНа данный момент поддержка включает:<br/>\r\n<ul>\r\n<li>интеграцию PhpStorm с WordPress для существующих проектов и новых плагинов;</li>\r\n<li>настройку рабочей среды для разработки под WordPress;</li>\r\n<li>настройку стандартов оформления кода WordPress и следование им;</li>\r\n<li>поддержку хуков (включая автодополнение для параметров регистрирующих функций; навигацию от функций, регистрирующих хуки, к вызовам хуков; и другие функции);</li>\r\n<li>поиск документации на WordPress.org прямо из редактора;</li>\r\n<li>интеграцию с инструментами командной строки WordPress WP-CLI.</li>\r\n</ul><br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 189,
+          "count_subscribers": 71248,
+          "is_profiled": true,
+          "rating": 5.6007,
+          "alias": "wordpress",
+          "title": "WordPress",
+          "tags_string": "блоги, блог-платформа, wordpress, wp, вордпресс, вп",
+          "about": "Всё о популярном движке для блогов Wordpress.",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 100,
+          "count_subscribers": 3356,
+          "is_profiled": false,
+          "rating": 66.1697,
+          "alias": "JetBrains",
+          "title": "Блог компании JetBrains",
+          "tags_string": "",
+          "about": "Блог компании JetBrains",
+          "is_membership": false,
+          "is_company": true
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 9056,
+      "author": {
+        "id": 321555,
+        "login": "MikhailVink",
+        "time_registered": "2013-02-15T19:25:56+04:00",
+        "score": 20,
+        "fullname": "Mikhail Vink",
+        "sex": 1,
+        "rating": 34.1,
+        "vote": 0,
+        "rating_position": 1573,
+        "geo": {
+          "country": "Россия",
+          "region": "Санкт-Петербург и область",
+          "city": "Санкт-Петербург"
+        },
+        "counters": {
+          "posts": 2,
+          "comments": 64,
+          "followed": 0,
+          "followers": 2
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/ecc/d90/44b/eccd9044b70e359f7dd41cddf027c326.jpg",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/company/JetBrains/blog/218585/",
+      "post_type": 1,
+      "post_type_str": "simple",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "comments_new": 16
+    },
+    {
+      "id": 218751,
+      "is_tutorial": false,
+      "time_published": "2014-04-09T13:46:01+04:00",
+      "time_interesting": "2014-04-09T23:40:01+04:00",
+      "comments_count": 19,
+      "score": 19,
+      "votes_count": 45,
+      "favorites_count": 257,
+      "tags_string": "php, reactphp",
+      "title": "Работаем асинхронно в PHP или история ещё одного чата",
+      "preview_html": "Меня очень радует, как бурно развивается PHP последние несколько лет. Наверное и вас тоже. Появляются постоянно новые возможности, удерживающие энтузиастов оставаться на данной платформе. Чего только стоит недавняя новость о релизе <a href=\"http://hacklang.org/\">Hack</a>. <br/>\r\n<br/>\r\nНаверняка кто-то прочитав даже заголовок этой статьи ухмыльнется и подумает: «Мсье знает толк в извращениях!». Споры о крутости того или иного языка никогда не утихают, но как бы там ни было, лично я для себя вижу не так уж и много условий смены языка, поскольку люблю выжимать все возможности, прежде чем радикально сменить весь стек. Недавно была <a href=\"http://habrahabr.ru/post/217863/\">публикация</a> о создании чата на Tornado и мне захотелось рассказать о том, как похожую задачу я решал при помощи PHP. <br/>\r\n<br/>\r\n<h5>Предыстория</h5><br/>\r\nВ один прекрасный день решил я познакомиться с WebSockets. Меня заинтриговала технология, хотя не сказать бы, что она появилась только вчера, и это совпало с запуском одного чат-сервиса соционической тематики, который страдал массой недостатков. Это придало мне азарт принять участие в конкурентной гонке. Использование веб-сокетов выглядело принципиально новым и многообещающим решением. <br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 550,
+          "count_subscribers": 87471,
+          "is_profiled": true,
+          "rating": 157.477,
+          "alias": "crazydev",
+          "title": "Ненормальное программирование",
+          "tags_string": "навороты, извращения, костыли, сумасшедшее программирование, ненормальное программирование, crazy programming, crazy coding",
+          "about": "Такой себе блог со всякими примерами странных программ или точнее идей. Скорее для программистов и админов. Ну и просто как можно иначе пользоваться компьютером пользователю, если добавить всего немного знаний программинга и скриптов.<br/>\r\n<br/>\r\nПосмотрим что получится :)",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "reading_count": 10222,
+      "author": {
+        "id": 586793,
+        "login": "akubintsev",
+        "time_registered": "2014-03-29T20:07:03+04:00",
+        "score": 8,
+        "fullname": "Александр Кубинцев",
+        "sex": 1,
+        "rating": 19.3,
+        "vote": 0,
+        "rating_position": 3330,
+        "geo": {
+          "country": "Россия",
+          "region": "Москва и Московская обл.",
+          "city": "Москва"
+        },
+        "counters": {
+          "posts": 1,
+          "comments": 10,
+          "followed": 0,
+          "followers": 0
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrahabr.ru/i/avatars/stub-user-middle.gif",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/218751",
+      "post_type": 11,
+      "post_type_str": "sandbox",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "is_recovery_mode": false,
+      "comments_new": 19
+    },
+    {
+      "id": 218021,
+      "is_tutorial": false,
+      "time_published": "2014-04-03T18:58:42+04:00",
+      "time_interesting": "2014-04-03T19:37:51+04:00",
+      "comments_count": 44,
+      "score": 105,
+      "votes_count": 125,
+      "favorites_count": 156,
+      "tags_string": "jphp, jvm",
+      "title": "JPHP — Как он работает. История создания",
+      "preview_html": "<i>В этой статье я расскажу более подробно об истории проекта <a href=\"https://github.com/dim-s/jphp\">JPHP</a> и каким образом он был разработан с технической стороны. Текст будет интересен как простым разработчикам PHP, так и любителям компиляторов. Я постарался описать все на простом языке.</i><br/>\r\n<br/>\r\n<img src=\"http://habrastorage.org/getpro/habr/post_images/a11/bf3/039/a11bf303982a965ffcd6b2d6ff9cdf20.png\" alt=\"image\"/><br/>\r\n<br/>\r\n<blockquote>JPHP это компилятор языка PHP для Java VM. Две недели назад я писал <a href=\"http://habrahabr.ru/post/216651/\">статью о проекте</a>. Похожие проекты — JRuby для ruby, Jython для python. После публикации первой статьи о JPHP, проект за два дня набрал 500 звёзд на гитхабе и успел засветиться не только в РУнете, но и на зарубежных ресурсах, успел побывать на первом месте в рейтинге гитхаба.</blockquote>",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 1100,
+          "count_subscribers": 86628,
+          "is_profiled": true,
+          "rating": 217.2131,
+          "alias": "java",
+          "title": "JAVA",
+          "tags_string": "java, ява, джава",
+          "about": "JAVA для веба и не только",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 82,
+          "count_subscribers": 80094,
+          "is_profiled": true,
+          "rating": 38.9426,
+          "alias": "compilers",
+          "title": "Компиляторы",
+          "tags_string": "компилятор, компиляторы, compiler",
+          "about": "Компиляторы",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 18668,
+      "author": {
+        "id": 77184,
+        "login": "dim_s",
+        "time_registered": "2011-10-08T23:30:25+04:00",
+        "score": 92,
+        "fullname": "Дмитрий Зайцев",
+        "sex": 1,
+        "rating": 130.5,
+        "vote": 0,
+        "rating_position": 134,
+        "geo": {
+          "country": null,
+          "region": null,
+          "city": null
+        },
+        "counters": {
+          "posts": 3,
+          "comments": 292,
+          "followed": 3,
+          "followers": 25
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/afc/b15/446/afcb15446ad86ce6a268465c30f3ef2d.jpg",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/218021",
+      "post_type": 1,
+      "post_type_str": "simple",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "comments_new": 44
+    },
+    {
+      "id": 218113,
+      "is_tutorial": false,
+      "time_published": "2014-04-03T15:47:32+04:00",
+      "time_interesting": "2014-04-03T16:22:22+04:00",
+      "comments_count": 37,
+      "score": 56,
+      "votes_count": 62,
+      "favorites_count": 114,
+      "tags_string": "gif, js, php, yii, selectel, digitalocean",
+      "title": "Тысяча и одна gif",
+      "preview_html": "Всем привет!<br/>\r\nХотелось бы рассказать вам историю создания одного простенького развлекательного сервиса по записи gif’ок с веб-камеры при помощи HTML5 и JS. О том как решение на коленке на базе опенсорсных решений в одночасье произвело пусть хоть и маленький, но всплеск популярности волны от которого уже на протяжении полугода приносят небольшое количество посетителей которым полезен этот сервис.<br/>\r\n<br/>\r\n<h5>А началось все просто</h5><br/>\r\nВ конце лета обычным рабочим днем бороздя просторы GitHub я наткнулся на довольно интересный скрипт (<a href=\"https://github.com/hdragomir/facetogif\">facetogif</a>) на нативном JS и HTML5 позволяющий записывать ролики с веб-камеры в gif-анимацию. Была приложена даже рабочая демка заливающая готовые ролики на сервис <a href=\"http://imgur.com\">imgur</a> или позволяющая сохранить их сразу на жестком диске.<br/>\r\nЭта идея показалась мне очень интересной и я решил с небольшими переделками реализовать ее в виде самостоятельного сервиса.<br/>\r\nСказано — сделано. В тот же вечер я форкнул репозиторий, зарегистрировал домен «вгиф.рф», поднял VPS (самый дешевый тариф за 5$) на DigitalOcean и написал простейший скрипт на php складирующий ролики прямо там на сервере.<br/>\r\nДля экономии ресурсов на сервер установил только Nginx и PHP-FPM.<br/>\r\n",
+      "text_cut": "И тут завертелось",
+      "hubs": [
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 1837,
+          "count_subscribers": 81630,
+          "is_profiled": true,
+          "rating": 606.0284,
+          "alias": "javascript",
+          "title": "JavaScript",
+          "tags_string": "javascript, ECMAScript, ECMA, ECMA-262, prototype.js, jQuery, Dojo, Google Closure Compiler, JSON, Backbone, underscore, knockoutjs, JSONP",
+          "about": "Все, что касается этого языка программирования",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "reading_count": 13811,
+      "author": {
+        "id": 127315,
+        "login": "rhamdeew",
+        "time_registered": "2011-12-05T13:55:40+04:00",
+        "score": 13,
+        "fullname": "Раиль",
+        "sex": 1,
+        "rating": 51.9,
+        "vote": 0,
+        "rating_position": 818,
+        "geo": {
+          "country": "Россия",
+          "region": "Ульяновская обл.",
+          "city": "Ульяновск"
+        },
+        "counters": {
+          "posts": 1,
+          "comments": 33,
+          "followed": 0,
+          "followers": 3
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/14d/ed6/f2d/14ded6f2d5dbf5192b3159863eccf1a0.png",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/218113",
+      "post_type": 11,
+      "post_type_str": "sandbox",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "is_recovery_mode": false,
+      "comments_new": 37
+    },
+    {
+      "id": 217793,
+      "is_tutorial": false,
+      "time_published": "2014-04-01T10:49:34+04:00",
+      "time_interesting": null,
+      "comments_count": 7,
+      "score": -1,
+      "votes_count": 17,
+      "favorites_count": 34,
+      "tags_string": "php, dle, sape, деобфускация, обфускация",
+      "title": "Деобфускация PHP",
+      "preview_html": "Здравствуй Хабр!<br/>\r\nНедавно зайдя на сайт своей знакомой, через смартфон, обнаружил несколько странных ссылок в подвале.<br/>\r\nЯ поинтересовался у нее, специально ли она разместила эти ссылки. Конечно же нет. Она удивилась и решила лично посмотреть о каких ссылках идет речь и здесь начинается интересное: ссылки были, но другие. Контекстная реклама, причем имеющая определенный таргетинг.<br/>\r\n<br/>\r\nПод катом небольшая статья о том, как я выпиливал скверну и разбирался как она работает.<br/>\r\n",
+      "text_cut": "Подробности",
+      "hubs": [
+        {
+          "count_posts": 3635,
+          "count_subscribers": 117449,
+          "is_profiled": true,
+          "rating": 1623.7758,
+          "alias": "infosecurity",
+          "title": "Информационная безопасность",
+          "tags_string": "безопасность, фишинг, fishing, защита, взлом, XSS, CSRF, SQL-inj, sql-инъекция, PHP-inj, DoS, DDoS, социальная инженерия, capcha, капча, sql injection, php injection, хакер, хакеры, хакерская атака",
+          "about": "О том, как мы защищаем свою информацию - от взлома, повреждения, фишинга и т.д. Новости мира anti-virus, anti-spam, anti-spy  и т.д.\r\n\r\nЛичные впечатления, опыт, мнения.",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "reading_count": 5157,
+      "author": {
+        "id": 352973,
+        "login": "nomn",
+        "time_registered": "2013-04-04T15:53:31+04:00",
+        "score": 3,
+        "fullname": "",
+        "sex": 0,
+        "rating": 0.8,
+        "vote": 0,
+        "rating_position": 30551,
+        "geo": {
+          "country": null,
+          "region": null,
+          "city": null
+        },
+        "counters": {
+          "posts": 1,
+          "comments": 5,
+          "followed": 0,
+          "followers": 0
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrahabr.ru/i/avatars/stub-user-middle.gif",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/217793",
+      "post_type": 11,
+      "post_type_str": "sandbox",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": false,
+      "is_favorite": false,
+      "is_recovery_mode": false,
+      "comments_new": 3
+    },
+    {
+      "id": 217239,
+      "is_tutorial": false,
+      "time_published": "2014-03-31T15:45:35+04:00",
+      "time_interesting": null,
+      "comments_count": 9,
+      "score": 0,
+      "votes_count": 20,
+      "favorites_count": 47,
+      "tags_string": "yii, велосипед, клуб анонимных PHPшников",
+      "title": "Набор велосипедов Yii разработчика",
+      "preview_html": "<h5>От автора</h5><br/>\r\nКогда автор пишет пост на хабре, он старается дать читателям максимально полную и полезную информацию по теме. А вот если правильного ответа или решения нет? Тогда этот пост просто пища для ума, а ценность заключается в коллективном разуме.<br/>\r\n<br/>\r\nЗашел я из далека, не спорю, но надеюсь на ваше понимание и поддержку. Озвучивая решения повседневных проблем разработчика, в частности на фреймворке Yii, я предлагаю решение нашей команды. При этом, интересуют идеи сообщества. Ну, довольно пудрить вам мозги. <br/>\r\nВперёд.<br/>\r\n<br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 133,
+          "count_subscribers": 64361,
+          "is_profiled": true,
+          "rating": 69.0666,
+          "alias": "yii",
+          "title": "Yii",
+          "tags_string": "yii, Yii Framework, YiiFramework, framework, фрэймворк",
+          "about": "Блог посвящен фреймворку под названием Yii. Тут публикуются все материалы тем или иным образом связанные с этим фреймворком.",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 19,
+          "count_subscribers": 152,
+          "is_profiled": false,
+          "rating": 3,
+          "alias": "smartprogress",
+          "title": "Блог компании SmartProgress",
+          "tags_string": "",
+          "about": "Блог компании SmartProgress",
+          "is_membership": false,
+          "is_company": true
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 3859,
+      "author": {
+        "id": 483064,
+        "login": "OneArt",
+        "time_registered": "2013-11-14T18:23:37+04:00",
+        "score": 6,
+        "fullname": "Сиятский Никита",
+        "sex": 1,
+        "rating": 3.2,
+        "vote": 0,
+        "rating_position": 16315,
+        "geo": {
+          "country": "Таиланд",
+          "region": null,
+          "city": null
+        },
+        "counters": {
+          "posts": 2,
+          "comments": 25,
+          "followed": 1,
+          "followers": 0
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrahabr.ru/i/avatars/stub-user-middle.gif",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/company/smartprogress/blog/217239/",
+      "post_type": 1,
+      "post_type_str": "simple",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": false,
+      "is_favorite": false,
+      "comments_new": 0
+    },
+    {
+      "id": 216955,
+      "is_tutorial": false,
+      "time_published": "2014-03-24T23:38:14+04:00",
+      "time_interesting": "2014-03-25T11:51:41+04:00",
+      "comments_count": 14,
+      "score": 4,
+      "votes_count": 24,
+      "favorites_count": 47,
+      "tags_string": "php, annotation, trait, copy-paste, symfony, doctrine",
+      "title": "Используем трейты с пользой",
+      "preview_html": "На хабре уже было несколько статей о трейтах и о том, как их использовать. Но я пока не видел примеров использования с реальными фреймворками, на которых мы пишем каждый день. Я любитель Symfony2 стека и потому именно на нем я покажу, как можно использовать трейты с пользой.",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 4878,
+      "author": {
+        "id": 235001,
+        "login": "hell0w0rd",
+        "time_registered": "2012-10-01T23:59:42+04:00",
+        "score": 18,
+        "fullname": "Никита Гусаков",
+        "sex": 1,
+        "rating": 9.1,
+        "vote": 0,
+        "rating_position": 7330,
+        "geo": {
+          "country": "Россия",
+          "region": "Москва и Московская обл.",
+          "city": "Москва"
+        },
+        "counters": {
+          "posts": 13,
+          "comments": 852,
+          "followed": 0,
+          "followers": 2
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/69a/049/d65/69a049d65ec38c50c841e8b93b3f1c41.jpg",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/216955",
+      "post_type": 1,
+      "post_type_str": "simple",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": false,
+      "is_favorite": false,
+      "comments_new": 0
+    },
+    {
+      "id": 216865,
+      "is_tutorial": false,
+      "time_published": "2014-03-24T11:54:51+04:00",
+      "time_interesting": null,
+      "comments_count": 19,
+      "score": 3,
+      "votes_count": 63,
+      "favorites_count": 86,
+      "tags_string": "массивы, in_array, isset, сравнение строк",
+      "title": "Используйте поиск по хешу, а не обыск массива",
+      "preview_html": "Довольно-таки часто встречается задача: проверить, совпадает ли строка с другими строками из набора. Например, вам нужно проверить каждое слово из сообщения на форуме на предмет того, не содержится ли оно в списке запрещённых. Распространённое решение: создать массив со списком запрещённых слов, а затем с помощью функции <code>in_array()</code> делать проверку. Есть способы повысить производительность такого алгоритма.<br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 473,
+          "count_subscribers": 85306,
+          "is_profiled": true,
+          "rating": 112.9421,
+          "alias": "hi",
+          "title": "Высокая производительность",
+          "tags_string": "high perfomance, highload, high load, hpc, high performance computing",
+          "about": "Здесь обсуждаются методы получения высокой производительности веб-систем.",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 1044,
+          "count_subscribers": 94408,
+          "is_profiled": true,
+          "rating": 262.9521,
+          "alias": "algorithms",
+          "title": "Алгоритмы",
+          "tags_string": "алгоритм, алгоритмы, задачки, решения, математика, программирование",
+          "about": "Пишем полезные и не очень алгоритмы, а также изучаем уже существующие.",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 10371,
+      "author": {
+        "id": 305243,
+        "login": "Xu4",
+        "time_registered": "2013-01-21T21:18:27+04:00",
+        "score": 5,
+        "fullname": "Сергей Ронин",
+        "sex": 1,
+        "rating": 2.6,
+        "vote": 0,
+        "rating_position": 18041,
+        "geo": {
+          "country": "Россия",
+          "region": "Москва и Московская обл.",
+          "city": "Коломна"
+        },
+        "counters": {
+          "posts": 2,
+          "comments": 28,
+          "followed": 2,
+          "followers": 1
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/acf/117/85b/acf11785b888c8b401bb4fb9017d723a.png",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/216865",
+      "post_type": 2,
+      "post_type_str": "translation",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": false,
+      "is_favorite": false,
+      "comments_new": 0
+    },
+    {
+      "id": 216809,
+      "is_tutorial": false,
+      "time_published": "2014-03-24T04:55:01+04:00",
+      "time_interesting": "2014-03-24T08:32:10+04:00",
+      "comments_count": 21,
+      "score": 43,
+      "votes_count": 51,
+      "favorites_count": 149,
+      "tags_string": "дайджест, новости, подборка, ссылки, веб-разработка, PHP, HACK, JPHP, HHVM, Zend Framework 2, PhpStorm, Zephir, Symfony 2, Laravel, PHPUnit, PHP 6",
+      "title": "Дайджест интересных новостей и материалов из мира PHP № 38 (9 марта — 23 марта 2014)",
+      "preview_html": "<img src=\"http://habrastorage.org/getpro/habr/post_images/003/267/a72/003267a7264bbfb18168002ea37465b3.jpg\"/><br/>\r\n<br/>\r\nПредлагаем вашему вниманию очередную подборку со ссылками на новости и материалы.<br/>\r\n<br/>\r\nПриятного чтения!<br/>\r\n",
+      "text_cut": "Читать дальше &rarr;",
+      "hubs": [
+        {
+          "count_posts": 4242,
+          "count_subscribers": 122054,
+          "is_profiled": true,
+          "rating": 676.8563,
+          "alias": "webdev",
+          "title": "Веб-разработка",
+          "tags_string": "web development",
+          "about": "Полезности для web-разработчиков.",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        },
+        {
+          "count_posts": 151,
+          "count_subscribers": 3314,
+          "is_profiled": false,
+          "rating": 73.0758,
+          "alias": "zfort",
+          "title": "Блог компании Zfort Group",
+          "tags_string": "",
+          "about": "Блог компании Zfort Group",
+          "is_membership": false,
+          "is_company": true
+        }
+      ],
+      "is_recovery_mode": false,
+      "reading_count": 16213,
+      "author": {
+        "id": 100489,
+        "login": "pronskiy",
+        "time_registered": "2011-10-28T12:27:47+04:00",
+        "score": 71.2,
+        "fullname": "Роман Пронский",
+        "sex": 1,
+        "rating": 118.8,
+        "vote": 0,
+        "rating_position": 162,
+        "geo": {
+          "country": "Украина",
+          "region": "Харьковская обл.",
+          "city": "Харьков"
+        },
+        "counters": {
+          "posts": 28,
+          "comments": 37,
+          "followed": 14,
+          "followers": 30
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/9be/fd5/33b/9befd533b8af2cdab0a95cb07d962fce.jpg",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/company/zfort/blog/216809/",
+      "post_type": 1,
+      "post_type_str": "simple",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "comments_new": 0
+    }
+  ],
+  "server_time": "2014-04-30T14:46:25+04:00"
+}

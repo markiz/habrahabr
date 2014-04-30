@@ -1,0 +1,21 @@
+{
+  "last": 7546011,
+  "data": [
+    {
+      "id": 7546011,
+      "score": 0,
+      "time_published": "2014-04-30T04:30:32+04:00",
+      "message": "<blockquote>Но иногда желательнее чтобы однажды установленный пакет был доступен для всех пользователей. Это можно сделать, установив пакеты, скажем, для root-а, и добавив /root/.composer/vendor/bin в общесистемную конфигурацию оболочки (напр. в /etc/profile)</blockquote><br/>\r\nС этого места по-подробнее :) Сделать /root доступным для всех хотите? Имхо, в /usr/local/composer какой-нить надо отправлять.<br/>\r\n",
+      "parent_id": 0,
+      "level": 0,
+      "time_changed": 0,
+      "author": {
+        "login": "SibProgrammer"
+      },
+      "avatar": "http://habrahabr.ru/i/avatars/stub-user-small.gif",
+      "is_can_vote": false,
+      "vote": null
+    }
+  ],
+  "server_time": "2014-04-30T15:02:35+04:00"
+}
