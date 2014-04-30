@@ -34,8 +34,8 @@ module Habrahabr
     protected
 
     def get(url, options = {}, &block)
-      options = options.delete_if {|k,v| v.nil? }
-      options.merge!(default_request_options)
+      options = options.delete_if {|k,v| v.nil? }.
+                        merge(default_request_options)
       faraday.get(url, options, &block)
     end
 
