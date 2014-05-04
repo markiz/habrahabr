@@ -48,6 +48,19 @@ module Habrahabr
       end
     end
 
+    describe "#post" do
+      before do
+        stub_request(:get, %r|v1/post/\d+|).
+            to_return(body: File.read('spec/fixtures/post.json'))
+      end
+
+      it "returns a Post" do
+        post = subject.post(220393)
+        post.should be_a(Entities::Post)
+        post.text_html.should include('Так же хорошо бы использовать не')
+      end
+    end
+
     describe "#posts_metadata" do
       before do
         stub_request(:get, %r|/v1/posts/meta|).

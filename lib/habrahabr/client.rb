@@ -9,31 +9,35 @@ module Habrahabr
     end
 
     def hubs(page = nil)
-      list(get('hubs', page: page).body, Entities::Hub)
+      list(http_get('hubs', page: page).body, Entities::Hub)
     end
 
     def hub_new(hub_name, page = nil)
-      list(get("hub/#{hub_name}/new", page: page).body, Entities::Post)
+      list(http_get("hub/#{hub_name}/new", page: page).body, Entities::Post)
     end
 
     def hub_habred(hub_name, page = nil)
-      list(get("hub/#{hub_name}/habred", page: page).body, Entities::Post)
+      list(http_get("hub/#{hub_name}/habred", page: page).body, Entities::Post)
+    end
+
+    def post(post_id)
+      Entities::Post.new(http_get("post/#{post_id}").body.fetch('data'))
     end
 
     def posts_metadata(post_ids)
       post_ids = [post_ids].flatten
-      get('posts/meta', ids: post_ids.join(',')).body.fetch('data').
+      http_get('posts/meta', ids: post_ids.join(',')).body.fetch('data').
           values.map {|post| Entities::Post.new(post) }
     end
     alias_method :posts_meta, :posts_metadata
 
     def post_comments(post_id, options = {})
-      list(get("comments/#{post_id}", options).body, Entities::Comment)
+      list(http_get("comments/#{post_id}", options).body, Entities::Comment)
     end
 
     protected
 
-    def get(url, options = {}, &block)
+    def http_get(url, options = {}, &block)
       options = options.delete_if {|k,v| v.nil? }.
                         merge(default_request_options)
       faraday.get(url, options, &block)
