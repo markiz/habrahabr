@@ -55,6 +55,7 @@ module Habrahabr
         builder.request :json
         builder.response :follow_redirects
         builder.response :json
+        builder.response :raise_error
 
         builder.adapter Faraday.default_adapter
       end
