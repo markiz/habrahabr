@@ -1,0 +1,78 @@
+{
+  "data": {
+    "221259": false,
+    "75570": {
+      "id": 75570,
+      "is_tutorial": false,
+      "time_published": "2014-04-29T11:07:17+04:00",
+      "time_interesting": "2014-04-29T13:39:49+04:00",
+      "comments_count": 1,
+      "score": null,
+      "votes_count": 13,
+      "favorites_count": 46,
+      "tags_string": "composer, pear, php",
+      "title": "Замена PEAR на Composer",
+      "preview_html": "Думаю, большинство разработчиков, использующих PHP, уже в знают, что популярные проекты начинают отказываться от распространения через PEAR в пользу Composer (например <a href=\"https://github.com/sebastianbergmann/phpunit/wiki/End-of-Life-for-PEAR-Installation-Method\">PHPUnit</a> и <a href=\"https://twitter.com/fabpot/status/457842648733478913\">Symfony</a>). Некоторые расстраиваются по этому поводу, дескать, теперь вместо однократной общесистемной установки того же PHPUnit, придётся включать его зависимостью в каждый проект. Совсем необязательно! Composer прекрасно умеет устанавливать пакеты для общего использования.",
+      "text_cut": "Читать дальше &rarr;",
+      "is_recovery_mode": false,
+      "hubs": [
+        {
+          "count_posts": 1532,
+          "count_subscribers": 91146,
+          "is_profiled": true,
+          "rating": 146.9443,
+          "alias": "php",
+          "title": "PHP",
+          "tags_string": "PHP, Hypertext Preprocessor, Personal Home Page Tools",
+          "about": "Блог для обмена опытом",
+          "is_membership": true,
+          "is_company": false
+        }
+      ],
+      "reading_count": 2461,
+      "author": {
+        "id": 15759,
+        "login": "Mekras",
+        "time_registered": "2007-09-13T13:17:57+04:00",
+        "score": 19.3,
+        "fullname": "Михаил Красильников",
+        "sex": 1,
+        "rating": 16.5,
+        "vote": 0,
+        "rating_position": 4006,
+        "geo": {
+          "country": "Россия",
+          "region": "Москва и Московская обл.",
+          "city": "Долгопрудный"
+        },
+        "counters": {
+          "posts": 20,
+          "comments": 233,
+          "followed": 5,
+          "followers": 12
+        },
+        "badges": [
+          {
+            "alias": "habred",
+            "title": "Захабренный",
+            "plural": "Захабренные",
+            "description": "Пользователь с кармой >0."
+          }
+        ],
+        "avatar": "http://habrastorage.org/getpro/habr/avatars/c1d/a35/91e/c1da3591e2c1c1ffb5b26d3e66589575.png",
+        "is_readonly": false
+      },
+      "has_polls": false,
+      "url": "http://habrahabr.ru/post/75570",
+      "post_type": 1,
+      "post_type_str": "simple",
+      "vote": null,
+      "is_can_vote": false,
+      "is_habred": true,
+      "is_interesting": true,
+      "is_favorite": false,
+      "comments_new": 0
+    }
+  },
+  "server_time": "2014-04-30T15:02:22+04:00"
+}

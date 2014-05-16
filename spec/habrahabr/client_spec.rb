@@ -74,6 +74,13 @@ module Habrahabr
         post.should be_a(Entities::Post)
         post.id.should == 221259
       end
+
+      it "ignores false values" do
+        stub_request(:get, %r|/v1/posts/meta|).
+            to_return(body: File.read('spec/fixtures/posts_metadata_with_false_values.json'))
+        response = subject.posts_metadata([221259, 75570])
+        response.count.should == 1
+      end
     end
 
     describe "#post_comments" do

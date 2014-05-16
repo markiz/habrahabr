@@ -27,7 +27,8 @@ module Habrahabr
     def posts_metadata(post_ids)
       post_ids = [post_ids].flatten
       http_get('posts/meta', ids: post_ids.join(',')).body.fetch('data').
-          values.map {|post| Entities::Post.new(post) }
+          values.reject {|v| v == false}.
+                 map {|post| Entities::Post.new(post) }
     end
     alias_method :posts_meta, :posts_metadata
 
