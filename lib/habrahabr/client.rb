@@ -12,6 +12,10 @@ module Habrahabr
       list(http_get('hubs', page: page).body, Entities::Hub)
     end
 
+    def hub_all(hub_name, page = nil)
+      list(http_get("hub/#{hub_name}/all", page: page).body, Entities::Post)
+    end
+
     def hub_new(hub_name, page = nil)
       list(http_get("hub/#{hub_name}/new", page: page).body, Entities::Post)
     end
